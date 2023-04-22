@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    font-family: sans-serif, 'Segoe UI', 'poppins';
+    font-size: 16px;
+    color: black;
+    border: 20px;
+}
+h1,h2, h3{
+    margin: 10px;
+    font-weight: 200px;
+}
+p{
+    margin: 10px;
+}
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 10px;  
+}
+ .first_blog {
+    background-color: bisque;
+  
+}
+.second_blog {
+    background-color: violet;
+}
+.third_blog{
+    background-color: grey;
+}
+.fourth_blog {
+    background-color: darkolivegreen;
+}
