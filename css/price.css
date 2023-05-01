@@ -12,6 +12,8 @@ body {
 }
 .container{
     max-width: 600px;
+    height: max-content;
+    
     margin: 200px auto;
     border:  1px solid #b4becd;
     border-radius: 10px;
@@ -69,27 +71,33 @@ h3 {
 .price-quote{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-top: 20px;
     
 }
 .price{
-    font-size: large;
+    font-size: 100px;
     font-weight: bold;
 }
 .per-month {
-    font-style: italic;
+    font-style: normal;
     margin-left: 10px;
+    opacity: 80%;
 }
 .sub-p{
     padding-bottom: 20px;
     font-size: 20px;
+    margin-top: 20px;
 }
 .btn {
+    outline: none;
+    border: none;
     background:lime;
     color: #fff;
     padding: 10px 20px;
     border-radius: 10px;
     width: 80%;
+    margin-top: 20px ;
+    /* box-shadow: ; */
 }
 
 
