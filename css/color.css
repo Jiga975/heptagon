@@ -39,9 +39,12 @@ a{
     background: transparent;
     border: 2px solid #fff;
     padding: 5px 16px;
+    cursor: pointer;
 }
 .btn:hover {
-    color: red;
+    transform: scale(0.8);
+    border-color:green;
+    opacity: 0.8;
 }
 .grid .bg-red {
     background-color: rgba(255, 0, 0, 0.7);
