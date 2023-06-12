@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200;300;400;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+}
+
+body{
+    font-family: sans-serif, "poppins";
+    color: #fff;
+    background: hsl(0, 100%, 74%);
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.left-wrapper{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+max-width: 450px;
+margin-right: 20px;
+
+
+}
+.left-wrapper h3 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+.left-wrapper p {
+    line-height: 2;
+}
+.right-wrapper {
+display: flex;
+flex-direction: column;
+
+justify-content: center;
+max-width: 450px;
+
+width: 100%;
+height: 100vh;
+
+}
+
+.top-text{
+    background: hsl(248, 32%, 49%);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 24px;
+    text-align: center;
+    margin: 10px 0;
+}
+form {
+    
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+form input {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    margin: 1.9rem 0;
+    border-radius: 10px;
+    border: 1px #333 solid;
+    
+}
+.btn {
+    background: hsl(150, 59%, 49%);
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    border-radius: 15px;
+}
+form p {
+    color: hsl(248, 32%, 49%);
+    font-size: 12px;
+    text-align: center;
+}
+span{
+    color: hsl(0, 100%, 74%);
+}
+
+
+@media (max-width:760px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    .left-wrapper{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 15px;
+        max-width: 350px;
+        text-align: center;
+        margin-top: 10px;
+        
+        
+        
+        
+        }
+        .left-wrapper h3 {
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 40px;
+            margin-bottom: 16px;
+        }
+        .left-wrapper p {
+            line-height: 2;
+        }
+        .right-wrapper {
+            display: flex;
+            flex-direction: column;
+            
+            justify-content: center;
+            max-width: 350px;
+            
+            width: 100%;
+            height: 100vh;
+            
+            }
+}
